@@ -7,4 +7,3 @@ export default createRouteBundle({
   '/': Start,
   '/about': About
 })
-

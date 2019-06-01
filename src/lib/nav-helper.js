@@ -23,5 +23,7 @@ function findAnchorTag(el) {
 }
 
 function getLocalPathname(a) {
-  return a.href.indexOf(location.protocol + '//' + location.host) !== -1 ? a.href.split(location.host, 2)[1] : null
+  return a.href.indexOf(location.protocol + '//' + location.host) !== -1
+    ? a.href.split(location.host, 2)[1]
+    : null
 }
